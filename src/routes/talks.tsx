@@ -17,8 +17,8 @@ const TALKS = [
   },
 ];
 
-router.get("/", (c) => {
-  return c.render(
+router.get("/", (c) =>
+  c.render(
     <>
       <h2 class="text-2xl font-semibold mb-8">Talks</h2>
       <div class="flex flex-col gap-8">
@@ -55,7 +55,7 @@ router.get("/", (c) => {
         ))}
       </div>
     </>,
-  );
-});
+  ),
+);
 
 export default router;
