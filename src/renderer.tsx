@@ -27,7 +27,7 @@ export const renderer = jsxRenderer(({ children }) => {
         <main class="mb-12">{children}</main>
         <footer class="flex flex-col gap-2">
           <a
-            href="https://twitter.com/mathuraditya724"
+            href="https://x.com/mathuraditya7"
             target="_blank"
             rel="noopener noreferrer"
             class="text-gray-500 no-underline text-sm transition-colors hover:text-white"
