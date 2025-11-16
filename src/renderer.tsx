@@ -9,7 +9,46 @@ export const renderer = jsxRenderer(({ children }) => {
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Aditya Mathur</title>
+
+        {/* Primary Meta Tags */}
+        <title>Aditya Mathur - Software Engineer</title>
+        <meta name="title" content="Aditya Mathur - Software Engineer" />
+        <meta
+          name="description"
+          content="I build, break, and fix stuff. Interested in LLMs, MCPs, and Hono 🔥"
+        />
+        <meta
+          name="keywords"
+          content="Aditya Mathur, Software Engineer, Developer, AI, Hono, MCP, Web Development"
+        />
+        <meta name="author" content="Aditya Mathur" />
+        <meta name="theme-color" content="#000000" />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://maditya.sh/" />
+        <meta property="og:title" content="Aditya Mathur - Software Engineer" />
+        <meta
+          property="og:description"
+          content="I build, break, and fix stuff. Interested in LLMs, MCPs, and Hono 🔥"
+        />
+        <meta property="og:site_name" content="Aditya Mathur" />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary" />
+        <meta property="twitter:url" content="https://maditya.sh/" />
+        <meta
+          property="twitter:title"
+          content="Aditya Mathur - Software Engineer"
+        />
+        <meta
+          property="twitter:description"
+          content="I build, break, and fix stuff. Interested in LLMs, MCPs, and Hono 🔥"
+        />
+        <meta property="twitter:creator" content="@mathuraditya7" />
+
+        <link rel="canonical" href="https://maditya.sh/" />
+
         <ViteClient />
         <Link href="/src/style.css" rel="stylesheet" />
       </head>
