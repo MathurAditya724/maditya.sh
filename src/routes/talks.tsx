@@ -42,16 +42,6 @@ router.get("/", (c) =>
               {talk.description}
             </p>
             <div class="flex gap-4 text-sm flex-wrap">
-              {talk.video && (
-                <a
-                  href={talk.video}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="text-gray-400 underline transition-colors hover:text-white"
-                >
-                  Watch Video →
-                </a>
-              )}
               {talk.slides && (
                 <a
                   href={talk.slides}
@@ -70,6 +60,16 @@ router.get("/", (c) =>
                   class="text-gray-400 underline transition-colors hover:text-white"
                 >
                   X Post →
+                </a>
+              )}
+              {talk.video && (
+                <a
+                  href={talk.video}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-gray-400 underline transition-colors hover:text-white"
+                >
+                  Watch Video →
                 </a>
               )}
             </div>
