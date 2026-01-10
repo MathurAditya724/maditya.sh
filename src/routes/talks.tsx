@@ -13,6 +13,12 @@ type Talk = {
 
 const TALKS: Talk[] = [
   {
+    title: "Cloudflare BLR Meetup",
+    date: "January 2026",
+    description: "Building MCPs with Hono",
+    slides: "https://talks.maditya.sh/2026-01-10/1",
+  },
+  {
     title: "Hono Conf 2025 - Japan",
     date: "October 2025",
     description: "Hono x MCP - A New Frontier",
