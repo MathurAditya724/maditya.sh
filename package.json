@@ -5,7 +5,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "$npm_execpath run build && vite preview",
-    "deploy": "$npm_execpath run build && wrangler deploy",
+    "deploy": "wrangler deploy --minify",
     "cf-typegen": "wrangler types --env-interface CloudflareBindings",
     "format": "biome format --write",
     "test": "tsx --test"
